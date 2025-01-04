@@ -53,7 +53,7 @@ To use this container as a sidecar in a Kubernetes deployment, add it to your Po
 ```yaml
 containers:
   - name: udp-ping-pong
-    image: juouyang/udp-ping-pong:1.0.0
+    image: juouyang/udp-ping-pong:latest
     args: ["0.0.0.0", "12345", "--silent"]
     ports:
       - containerPort: 12345
