@@ -69,8 +69,8 @@ containers:
 ## Health Check in Oracle Cloud
 
 1. Configure your Oracle Network Load Balancer to point to this container's exposed UDP port (e.g., 12345).
-2. Set the health check payload to `"ping"` (Base64: `cGluZw==`).
-3. The container will respond with `"pong"` (Base64: `cG9uZw==`) for successful checks.
+2. Set the health check payload to `"ping"`.
+3. The container will respond with `"pong"` for successful checks.
 
 ## License
 
